@@ -15,11 +15,11 @@
         <ProfileTechnology>CANopen</ProfileTechnology>
       </ISO15745Reference>
     </ProfileHeader>
-    <ProfileBody xmlns:q1="http://www.canopen.org/xml/1.1" xsi:type="q1:ProfileBody_Device_CANopen" formatName="CANopen" formatVersion="1.0" fileName="DS301_profile.xpd" fileCreator="" fileCreationDate="2020-11-23" fileCreationTime="13:00:00.0000000+02:00" fileModifiedBy="" fileModificationDate="2025-10-11" fileModificationTime="20:13:52.7092167+02:00" fileVersion="1" supportedLanguages="en" xmlns="">
+    <ProfileBody xmlns:q1="http://www.canopen.org/xml/1.1" xsi:type="q1:ProfileBody_Device_CANopen" formatName="CANopen" formatVersion="1.0" fileName="DS301_profile.xpd" fileCreator="" fileCreationDate="2020-11-23" fileCreationTime="12:00:00.0000000+01:00" fileModifiedBy="" fileModificationDate="2025-10-26" fileModificationTime="11:33:56.5498708+01:00" fileVersion="1" supportedLanguages="en" xmlns="">
       <q1:DeviceIdentity>
         <q1:vendorName>MSDL</q1:vendorName>
         <q1:vendorID></q1:vendorID>
-        <q1:productName>MIO</q1:productName>
+        <q1:productName>BDB</q1:productName>
         <q1:productID></q1:productID>
         <q1:version versionType="SW">0</q1:version>
         <q1:version versionType="FW">0</q1:version>
@@ -377,7 +377,7 @@
           <q1:parameter uniqueID="UID_OBJ_1008">
             <label lang="en">Manufacturer device name</label>
             <STRING />
-            <q1:defaultValue value="M-IO/16" />
+            <q1:defaultValue value="BDB/16" />
             <q1:property name="CO_storageGroup" value="PERSIST_COMM" />
           </q1:parameter>
           <q1:parameter uniqueID="UID_OBJ_1009">
@@ -1034,85 +1034,85 @@
             <USINT />
             <q1:defaultValue value="0x10" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_610001" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_610001">
             <label lang="en">Virtual input 1</label>
             <BITSTRING />
-            <q1:defaultValue value="13 0a 01 ff ff 00" />
+            <q1:defaultValue value="13 05 01 ff ff 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_610002" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_610002">
             <label lang="en">Virtual input 2</label>
             <BITSTRING />
-            <q1:defaultValue value="13 0a 01 ff ff 00" />
+            <q1:defaultValue value="13 06 01 ff ff 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_610003" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_610003">
             <label lang="en">Virtual input 3</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 01 00 00 00" />
+            <q1:defaultValue value="13 07 01 ff ff 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_610004" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_610004">
             <label lang="en">Virtual input 4</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 01 00 00 00" />
+            <q1:defaultValue value="c5 06 01 ff ff 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_610005" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_610005">
             <label lang="en">Virtual input 5</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="13 0a 01 ff ff 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_610006" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_610006">
             <label lang="en">Virtual input 6</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="13 0b 01 ff ff 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_610007" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_610007">
             <label lang="en">Virtual input 7</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="13 09 01 ff ff 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_610008" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_610008">
             <label lang="en">Virtual input 8</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="c5 04 01 ff ff 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_610009" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_610009">
             <label lang="en">Virtual input 9</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="c5 0b 01 ff ff 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_61000A" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_61000A">
             <label lang="en">Virtual input 10</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="c4 12 01 ff ff 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_61000B" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_61000B">
             <label lang="en">Virtual input 11</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_61000C" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_61000C">
             <label lang="en">Virtual input 12</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_61000D" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_61000D">
             <label lang="en">Virtual input 13</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_61000E" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_61000E">
             <label lang="en">Virtual input 14</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_61000F" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_61000F">
             <label lang="en">Virtual input 15</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_610010" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_610010">
             <label lang="en">Virtual input 16</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
           <q1:parameter uniqueID="UID_OBJ_6200">
             <label lang="en">Output group 1</label>
@@ -1123,85 +1123,85 @@
             <USINT />
             <q1:defaultValue value="0x10" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_620001" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_620001">
             <label lang="en">Virtual output 1</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 01 00 00 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_620002" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_620002">
             <label lang="en">Virtual output 2</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 01 00 00 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_620003" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_620003">
             <label lang="en">Virtual output 3</label>
             <BITSTRING />
-            <q1:defaultValue value="C7 2D 01 FF FF 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_620004" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_620004">
             <label lang="en">Virtual output 4</label>
             <BITSTRING />
-            <q1:defaultValue value="C7 2D 01 FF FF 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_620005" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_620005">
             <label lang="en">Virtual output 5</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_620006" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_620006">
             <label lang="en">Virtual output 6</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_620007" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_620007">
             <label lang="en">Virtual output 7</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_620008" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_620008">
             <label lang="en">Virtual output 8</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_620009" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_620009">
             <label lang="en">Virtual output 9</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_62000A" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_62000A">
             <label lang="en">Virtual output 10</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_62000B" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_62000B">
             <label lang="en">Virtual output 11</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="00 00 00 00 00 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_62000C" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_62000C">
             <label lang="en">Virtual output 12</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="c4 0e 01 ff ff 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_62000D" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_62000D">
             <label lang="en">Virtual output 13</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="c5 0c 01 ff ff 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_62000E" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_62000E">
             <label lang="en">Virtual output 14</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="c4 0f 01 ff ff 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_62000F" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_62000F">
             <label lang="en">Virtual output 15</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="c7 2d 01 ff ff 00" />
           </q1:parameter>
-          <q1:parameter uniqueID="UID_SUB_620010" access="readWrite">
+          <q1:parameter uniqueID="UID_SUB_620010">
             <label lang="en">Virtual output 16</label>
             <BITSTRING />
-            <q1:defaultValue value="00 00 00 00 01 00" />
+            <q1:defaultValue value="c7 2e 01 ff ff 00" />
           </q1:parameter>
         </q1:parameterList>
       </q1:ApplicationProcess>
@@ -1220,7 +1220,7 @@
         <ProfileTechnology>CANopen</ProfileTechnology>
       </ISO15745Reference>
     </ProfileHeader>
-    <ProfileBody xmlns:q2="http://www.canopen.org/xml/1.1" xsi:type="q2:ProfileBody_CommunicationNetwork_CANopen" formatName="CANopen" formatVersion="1.0" fileName="DS301_profile.xpd" fileCreator="" fileCreationDate="2020-11-23" fileCreationTime="13:00:00.0000000+02:00" fileModificationDate="2025-10-11" fileModificationTime="20:13:52.7092167+02:00" fileVersion="1" supportedLanguages="en" xmlns="">
+    <ProfileBody xmlns:q2="http://www.canopen.org/xml/1.1" xsi:type="q2:ProfileBody_CommunicationNetwork_CANopen" formatName="CANopen" formatVersion="1.0" fileName="DS301_profile.xpd" fileCreator="" fileCreationDate="2020-11-23" fileCreationTime="12:00:00.0000000+01:00" fileModificationDate="2025-10-26" fileModificationTime="11:33:56.5498708+01:00" fileVersion="1" supportedLanguages="en" xmlns="">
       <ApplicationLayers>
         <q2:CANopenObjectList>
           <CANopenObject index="1000" name="Device type" objectType="7" PDOmapping="no" uniqueIDRef="UID_OBJ_1000" />
