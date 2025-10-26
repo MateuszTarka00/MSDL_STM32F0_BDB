@@ -58,40 +58,40 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define IN_9_Pin GPIO_PIN_13
-#define IN_9_GPIO_Port GPIOC
-#define IN_10_Pin GPIO_PIN_14
-#define IN_10_GPIO_Port GPIOC
-#define IN_8_Pin GPIO_PIN_3
-#define IN_8_GPIO_Port GPIOA
-#define IN_1_Pin GPIO_PIN_4
-#define IN_1_GPIO_Port GPIOA
-#define IN_3_Pin GPIO_PIN_5
-#define IN_3_GPIO_Port GPIOA
-#define IN_2_Pin GPIO_PIN_6
-#define IN_2_GPIO_Port GPIOA
-#define IN_4_Pin GPIO_PIN_7
-#define IN_4_GPIO_Port GPIOA
-#define OUT_12_Pin GPIO_PIN_12
-#define OUT_12_GPIO_Port GPIOB
-#define OUT_16_Pin GPIO_PIN_15
-#define OUT_16_GPIO_Port GPIOB
-#define OUT_15_Pin GPIO_PIN_8
-#define OUT_15_GPIO_Port GPIOA
-#define IN_6_Pin GPIO_PIN_9
-#define IN_6_GPIO_Port GPIOA
-#define IN_5_Pin GPIO_PIN_10
-#define IN_5_GPIO_Port GPIOA
+#define IN9_Pin GPIO_PIN_13
+#define IN9_GPIO_Port GPIOC
+#define IN10_Pin GPIO_PIN_14
+#define IN10_GPIO_Port GPIOC
+#define IN8_Pin GPIO_PIN_3
+#define IN8_GPIO_Port GPIOA
+#define IN1_Pin GPIO_PIN_4
+#define IN1_GPIO_Port GPIOA
+#define IN3_Pin GPIO_PIN_5
+#define IN3_GPIO_Port GPIOA
+#define IN2_Pin GPIO_PIN_6
+#define IN2_GPIO_Port GPIOA
+#define IN4_Pin GPIO_PIN_7
+#define IN4_GPIO_Port GPIOA
+#define OUT12_Pin GPIO_PIN_12
+#define OUT12_GPIO_Port GPIOB
+#define OUT16_Pin GPIO_PIN_15
+#define OUT16_GPIO_Port GPIOB
+#define OUT15_Pin GPIO_PIN_8
+#define OUT15_GPIO_Port GPIOA
+#define IN6_Pin GPIO_PIN_9
+#define IN6_GPIO_Port GPIOA
+#define IN5_Pin GPIO_PIN_10
+#define IN5_GPIO_Port GPIOA
 #define CAN_FAULT_Pin GPIO_PIN_15
 #define CAN_FAULT_GPIO_Port GPIOA
 #define CAN_OK_Pin GPIO_PIN_3
 #define CAN_OK_GPIO_Port GPIOB
-#define IN_7_Pin GPIO_PIN_4
-#define IN_7_GPIO_Port GPIOB
-#define OUT_13_Pin GPIO_PIN_5
-#define OUT_13_GPIO_Port GPIOB
-#define OUT_14_Pin GPIO_PIN_8
-#define OUT_14_GPIO_Port GPIOB
+#define IN7_Pin GPIO_PIN_4
+#define IN7_GPIO_Port GPIOB
+#define OUT13_Pin GPIO_PIN_5
+#define OUT13_GPIO_Port GPIOB
+#define OUT14_Pin GPIO_PIN_8
+#define OUT14_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
