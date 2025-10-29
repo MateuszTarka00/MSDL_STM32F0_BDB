@@ -43,7 +43,7 @@ ODR_t virtualOutputMappingWrite(OD_stream_t* const stream, const void* const buf
 
 	OD_entry_t *entry = OD_find(OD, 0x6200);
 
-	for(uint8_t subIndex = 1; subIndex <= OD_CNT_ARR_6200; ++subIndex)
+	for(uint8_t subIndex = 12; subIndex <= OD_CNT_ARR_6200; ++subIndex)
 	{
 		uint8_t identifier[6];
 
